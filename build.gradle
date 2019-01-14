@@ -12,8 +12,8 @@ plugins {
 
 nexus {
   sign = false
-  repositoryUrl = 'http://nexus/nexus/content/repositories/internal/'
-  snapshotRepositoryUrl = 'http://nexus/nexus/content/repositories/internal-snapshots/'
+  repositoryUrl = 'http://nexus.jx.192.168.99.102.nip.io/repository/maven-releases/'
+  snapshotRepositoryUrl = 'http://nexus.jx.192.168.99.102.nip.io/repository/maven-snopshots/'
 }
  
 sourceCompatibility = 1.8
