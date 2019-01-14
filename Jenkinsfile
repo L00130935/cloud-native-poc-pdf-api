@@ -19,7 +19,7 @@ pipeline {
       }
       steps {
         container('gradle') {
-          sh "gradle clean build"
+          sh "gradle clean build uploadArchives"
         }
       }
     }
