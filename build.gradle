@@ -11,7 +11,7 @@ plugins {
 }
 
 nexus {
-//	  sign = true
+  sign = false
   repositoryUrl = 'http://nexus/nexus/content/repositories/internal/'
   snapshotRepositoryUrl = 'http://nexus/nexus/content/repositories/internal-snapshots/'
 }
