@@ -6,6 +6,16 @@
  */
 apply plugin: 'java'
 apply plugin: 'eclipse'
+
+plugins {
+  id "com.bmuschko.nexus" version "2.3.1"
+}
+
+nexus {
+  sign = true
+  repositoryUrl = 'http://nexus/nexus/content/repositories/internal/'
+  snapshotRepositoryUrl = 'http://nexus/nexus/content/repositories/internal-snapshots/'
+}
  
 sourceCompatibility = 1.9
 targetCompatibility = 1.9
