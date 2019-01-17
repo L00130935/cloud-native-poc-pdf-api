@@ -10,6 +10,8 @@ plugins {
   id "com.bmuschko.nexus" version "2.3.1"
 }
 
+version = 0.1
+
 nexus {
   sign = false
   repositoryUrl = 'http://nexus.jx.192.168.99.102.nip.io/repository/maven-releases/'
