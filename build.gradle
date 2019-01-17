@@ -16,8 +16,8 @@ group = "com.prudential.soc"
 
 nexus {
   sign = false
-  repositoryUrl = 'http://nexus.jx.192.168.99.102.nip.io/repository/maven-releases/'
-  snapshotRepositoryUrl = 'http://nexus.jx.192.168.99.102.nip.io/repository/maven-snapshots/'
+  repositoryUrl = 'http://nexus/repository/maven-releases/'
+  snapshotRepositoryUrl = 'http://nexus/repository/maven-snapshots/'
 }
  
 sourceCompatibility = 1.8
