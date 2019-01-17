@@ -11,6 +11,7 @@ plugins {
 }
 
 version = 0.1
+group = "com.prudential.soc"
 
 nexus {
   sign = false
